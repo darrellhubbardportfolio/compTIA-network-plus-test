@@ -8,15 +8,15 @@ router.get('/', (req, res) => {
 /*
     session example
     req.session.user = { 
-        name: 'John Doe',
+        username: 'John Doe',
         exam: { 
             examId: 123, 
             currentQuestion: 1, 
             questions: [], // load all questions here
-            answerSheet: [],
+            answerSheet: [], // add and modify answers here
             totalQuestions: questions.length
-            }
-        };
+        }
+    };
 */
 
 module.exports = router;
