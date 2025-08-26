@@ -4,3 +4,4 @@ package.json
 .env    
 network-plus.csv
 network-plus.json
+database.db
